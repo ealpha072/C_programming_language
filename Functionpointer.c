@@ -11,7 +11,6 @@ int sumOfElements(int A[], int size){
     for (i = 0; i < size; i++){
         sum += A[i];
     }
-
     return sum;
 }
 
