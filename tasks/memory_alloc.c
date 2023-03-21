@@ -31,4 +31,6 @@ int main(){
     for (int i = 0; i < 3; i++){
         printf("%d \n", sum[i]);
     }
+    free(sum);
+    return 0;
 }
